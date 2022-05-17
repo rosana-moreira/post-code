@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prismicio/client": "5.1.1",
+    "@prismicio/next": "^0.1.2",
+    "@types/prismic-dom": "^2.1.1",
+    "axios": "^0.27.2",
     "next": "12.1.6",
+    "prismic-dom": "^2.2.7",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "sass": "^1.51.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.34",
