@@ -1,9 +1,6 @@
-import Link from "next/link";
-import Head from "next/head";
-import commonStyles from "../styles/common.module.scss";
-import { FiCalendar, FiUser } from "react-icons/fi";
-import styles from "./home.module.scss";
-export default function Home() {
+import styles from "./styles.module.scss";
+
+export default function Post() {
   return (
     <>
       <main className={styles.main}>
@@ -15,15 +12,9 @@ export default function Home() {
             JavaScript/TypeScript
           </h3>
           <div className={styles.author}>
-            <span>
-              <FiCalendar /> 19 abr 2021
-            </span>
+            <span>19 abr 2021</span>
 
-            <span>
-          
-              <FiUser />
-              Rosana Moreira
-            </span>
+            <span>Rosana Moreira</span>
           </div>
         </div>
         <div className={styles.container}>
@@ -35,12 +26,11 @@ export default function Home() {
           </h3>
           <div className={styles.author}>
             <span>
-              <FiCalendar /> 19 abr 2021
+             19 abr 2021
             </span>
 
             <span>
-             
-              <FiUser />
+            
               Rosana Moreira
             </span>
           </div>
