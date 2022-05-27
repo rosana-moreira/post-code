@@ -34,16 +34,16 @@ export default function Post({ post }: PostProps): JSX.Element {
   });
   return (
     <>
+      <div
+        style={{
+          width: "100%",
+          background: `url(${post.data.banner.url}) no-repeat center`,
+          height: "20rem",
+        }}
+      />
       <main className={styles.main}>
         <div className={styles.container}>
           <h1>{post.data.title}</h1>
-          <div
-            style={{
-              width: "98vw",
-              background: `url(${post.data.banner.url}) no-repeat center`,
-              height: "25rem",
-            }}
-          />
           <span>
             <FiCalendar /> {formattedPost.first_publication_date}
           </span>

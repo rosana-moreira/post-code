@@ -1,28 +1,38 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-  
-  }
-  .container {
-    width: 50%;
-    margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+.container {
+  width: 50%;
+  margin-bottom: 2rem;
 
   h1 {
     font-weight: 800;
     font-size: 1.8rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
   }
-  h3{
-    font-weight: 500;
+  span {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 7rem;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
     font-size: 1.2rem;
     margin-bottom: 0.6rem;
+    line-height: 2rem;
+    text-align: justify;
   }
-  
-
-  }
-  
+}
