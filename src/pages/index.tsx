@@ -69,9 +69,11 @@ export default function Home({
         return (
           <Link href={`/post/${post.uid}`} key={post.uid}>
             <div className={styles.container}>
-              <h1>{post.data.title}</h1>
-
+              <a>
+                <h1>{post.data.title}</h1>
+              </a>
               <h3>{post.data.excerpt}</h3>
+
               <div className={styles.author}>
                 <span>
                   <FiCalendar /> {post.first_publication_date}

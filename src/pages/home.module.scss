@@ -21,6 +21,17 @@
     font-size: 1.2rem;
     margin-bottom: 0.6rem;
   }
+  a {
+    cursor: pointer;
+    margin-left: 0.5rem;
+
+    &:hover {
+      color: var(--highlight);
+      text-decoration: underline;
+    }
+  
+    
+  }
 }
 .author {
   direction: row;
