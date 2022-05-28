@@ -81,7 +81,6 @@ export const getServerSideProps: GetServerSideProps = async ({
       excerpt: RichText.asText(response.data.content),
     },
   };
-  console.log(post);
   return {
     props: {
       post,

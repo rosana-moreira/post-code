@@ -7,19 +7,13 @@ export function Header() {
         <div className={styles.headerContent}>
           <span>
             <img src="/images/logo.png" alt="pinkcode" />
-            PinkCode
+            PostCode
           </span>
           <nav>
             <ActiveLink activeClassName={styles.active} href="/">
-              <a>Home</a>
-            </ActiveLink>
-            <ActiveLink activeClassName={styles.active} href="/posts">
               <a>Posts</a>
             </ActiveLink>
           </nav>
-          <ActiveLink activeClassName={styles.active} href="/contacts">
-            <a>Contato</a>
-          </ActiveLink>
         </div>
       </header>
     </>
